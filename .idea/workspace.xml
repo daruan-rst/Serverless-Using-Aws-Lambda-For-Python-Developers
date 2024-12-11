@@ -4,115 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e03ff64-0673-4cbc-a2a5-48e5691937eb" name="Changes" comment="32. SAM Deploy">
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/build.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi-2024.8.30.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi-2024.8.30.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi-2024.8.30.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi-2024.8.30.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi-2024.8.30.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/certifi/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer-3.4.0.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer-3.4.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer-3.4.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer-3.4.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer-3.4.0.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer-3.4.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/cd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/cli/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/cli/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/constant.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/legacy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/md.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/charset_normalizer/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna-3.10.dist-info/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna-3.10.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna-3.10.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna-3.10.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna/codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna/idnadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna/intranges.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna/package_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/idna/uts46data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests-2.32.3.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests-2.32.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests-2.32.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests-2.32.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests-2.32.3.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/__version__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/_internal_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/adapters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/certs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/cookies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/hooks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/packages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/sessions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/status_codes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/structures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/requests/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3-2.2.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3-2.2.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3-2.2.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3-2.2.3.dist-info/licenses/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/_base_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/_collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/_request_methods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/_version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/connectionpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/contrib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/contrib/emscripten/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/contrib/emscripten/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/contrib/emscripten/emscripten_fetch_worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/contrib/emscripten/fetch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/contrib/emscripten/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/contrib/emscripten/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/contrib/pyopenssl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/contrib/socks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/filepost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/http2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/http2/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/http2/probe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/poolmanager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/proxy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/retry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/ssl_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/ssl_match_hostname.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/ssltransport.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/timeout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/.aws-sam/deps/c056a709-a0b9-4859-97e6-edb1427e1561/urllib3/util/wait.py" beforeDir="false" />
+    <list default="true" id="2e03ff64-0673-4cbc-a2a5-48e5691937eb" name="Changes" comment=".gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/Serverless-Using-Aws-Lambda-For-Python-Developers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Serverless-Using-Aws-Lambda-For-Python-Developers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstlambda/hello_world/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstlambda/hello_world/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstlambda/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/firstlambda/template.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +86,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733881122697</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="32. SAM Deploy">
+      <option name="closed" value="true" />
+      <created>1733881541828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733881541828</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".gitignore">
+      <option name="closed" value="true" />
+      <created>1733881610252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733881610252</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="30. Create a Serverless Project" />
     <MESSAGE value="32. SAM Deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="32. SAM Deploy" />
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
   </component>
 </project>
