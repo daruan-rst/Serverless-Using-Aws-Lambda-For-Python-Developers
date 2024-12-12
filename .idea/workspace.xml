@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e03ff64-0673-4cbc-a2a5-48e5691937eb" name="Changes" comment=".gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/Serverless-Using-Aws-Lambda-For-Python-Developers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Serverless-Using-Aws-Lambda-For-Python-Developers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2e03ff64-0673-4cbc-a2a5-48e5691937eb" name="Changes" comment="34. Back to Earth (Hello World)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstlambda/hello_world/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstlambda/hello_world/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlambda/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/firstlambda/template.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733881610252</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="34. Back to Earth (Hello World)">
+      <option name="closed" value="true" />
+      <created>1733955810011</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733955810011</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +125,7 @@
     <MESSAGE value="30. Create a Serverless Project" />
     <MESSAGE value="32. SAM Deploy" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="34. Back to Earth (Hello World)" />
+    <option name="LAST_COMMIT_MESSAGE" value="34. Back to Earth (Hello World)" />
   </component>
 </project>
