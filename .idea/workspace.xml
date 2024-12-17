@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e03ff64-0673-4cbc-a2a5-48e5691937eb" name="Changes" comment="35. Passing parameters">
-      <change beforePath="$PROJECT_DIR$/.idea/Serverless-Using-Aws-Lambda-For-Python-Developers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Serverless-Using-Aws-Lambda-For-Python-Developers.iml" afterDir="false" />
+    <list default="true" id="2e03ff64-0673-4cbc-a2a5-48e5691937eb" name="Changes" comment="37. Test Locally">
+      <change afterPath="$PROJECT_DIR$/firstlambda/hello_world/datatypes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstlambda/events/event.json" beforeDir="false" afterPath="$PROJECT_DIR$/firstlambda/events/event.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstlambda/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/firstlambda/template.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734042389314</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="37. Test Locally">
+      <option name="closed" value="true" />
+      <created>1734219337573</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734219337573</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +152,7 @@
     <MESSAGE value=".gitignore" />
     <MESSAGE value="34. Back to Earth (Hello World)" />
     <MESSAGE value="35. Passing parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="35. Passing parameters" />
+    <MESSAGE value="37. Test Locally" />
+    <option name="LAST_COMMIT_MESSAGE" value="37. Test Locally" />
   </component>
 </project>
