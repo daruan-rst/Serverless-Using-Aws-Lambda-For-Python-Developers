@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e03ff64-0673-4cbc-a2a5-48e5691937eb" name="Changes" comment="37. Test Locally">
-      <change afterPath="$PROJECT_DIR$/firstlambda/hello_world/datatypes.py" afterDir="false" />
+    <list default="true" id="2e03ff64-0673-4cbc-a2a5-48e5691937eb" name="Changes" comment="43. Simple Types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstlambda/events/event.json" beforeDir="false" afterPath="$PROJECT_DIR$/firstlambda/events/event.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstlambda/hello_world/datatypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstlambda/hello_world/datatypes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstlambda/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/firstlambda/template.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734219337573</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="43. Simple Types">
+      <option name="closed" value="true" />
+      <created>1734468175420</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734468175420</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +161,7 @@
     <MESSAGE value="34. Back to Earth (Hello World)" />
     <MESSAGE value="35. Passing parameters" />
     <MESSAGE value="37. Test Locally" />
-    <option name="LAST_COMMIT_MESSAGE" value="37. Test Locally" />
+    <MESSAGE value="43. Simple Types" />
+    <option name="LAST_COMMIT_MESSAGE" value="43. Simple Types" />
   </component>
 </project>
