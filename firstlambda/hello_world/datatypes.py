@@ -9,3 +9,9 @@ def list_types(event, context):
     for name in event:
         scores.append(student_scores[name])
     return scores
+
+def dict_types(event, context):
+    john_scores = event["john"]
+    for score in john_scores:
+        print(score)
+    return event

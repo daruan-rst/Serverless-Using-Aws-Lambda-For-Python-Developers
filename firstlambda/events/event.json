@@ -1,1 +1,1 @@
-["john","bharath"]
+{"john": [100,80,90], "bob": 90, "bharath": 100}
