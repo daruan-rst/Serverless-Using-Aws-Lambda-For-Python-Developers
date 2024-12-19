@@ -13,6 +13,10 @@ Resources:
       Handler: datatypes.lambda_handler
       Runtime: python3.13
       Timeout: 7
+      Environment:
+        Variables:
+          restapiurl: http://dummyurl
+          dbname: mydb
       Architectures:
         - x86_64
 

@@ -1,3 +1,4 @@
+import os
 import time
 
 def simple_types(event, context):
@@ -27,3 +28,4 @@ def lambda_handler(event, context):
     # We have added a 1 second delay so you can see the time remaining in get_remaining_time_in_millis.
     time.sleep(4)
     print("Lambda time remaining in MS:", context.get_remaining_time_in_millis())
+    print(os.getenv('restapiurl'))
