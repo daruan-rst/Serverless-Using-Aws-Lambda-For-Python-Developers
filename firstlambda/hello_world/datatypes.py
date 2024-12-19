@@ -1,5 +1,14 @@
 import os
 import time
+import random
+
+global_random_value = random.random()
+
+def cold_start_basics(event, context):
+    local_random_val = random.random()
+    print(local_random_val)
+    print(global_random_value)
+
 
 def simple_types(event, context):
     print(event)
