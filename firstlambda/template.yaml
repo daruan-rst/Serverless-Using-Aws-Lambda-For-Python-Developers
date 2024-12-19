@@ -12,6 +12,7 @@ Resources:
       CodeUri: hello_world/
       Handler: datatypes.lambda_handler
       Runtime: python3.13
+      Timeout: 7
       Architectures:
         - x86_64
 
