@@ -19,3 +19,18 @@ Resources:
             Path: /orders
             Method: POST
 
+  ReadOrderFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: orders_api/
+      Handler: read.lambda_handler
+      Runtime: python3.13
+      Architectures:
+        - x86_64
+      Events:
+        ReadOrders:
+          Type: Api
+          Properties:
+            Path: /orders/{id}
+            Method: GET
+
