@@ -17,5 +17,5 @@ Resources:
           Type: Api
           Properties:
             Path: /orders
-            Method: /POST
+            Method: POST
 
