@@ -9,7 +9,7 @@ def lambda_handler(event, context):
     table_name = os.environ.get('ORDER_TABLE')
 
     table = dynamodb.Table(table_name)
-    table.put_item(TableName=table, Item=order)
+    table.put_item(TableName=table_name, Item=order)
     return {
         'statusCode': 201,
         'headers': {},

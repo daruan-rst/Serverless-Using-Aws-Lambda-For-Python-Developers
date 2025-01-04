@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     }
 
     dynamodb = boto3.resource('dynamodb')
-    table_name = os.environ.get('ORDER_TABLE')
+    table_name = os.environ.get('ORDERS_TABLE')
 
     table = dynamodb.Table(table_name)
 
@@ -22,5 +22,5 @@ def lambda_handler(event, context):
     return {
         'statusCode': 200,
         'headers': {},
-        'body': json.dumps(response['items'])
+        'body': json.dumps(response['Items'])
     }
