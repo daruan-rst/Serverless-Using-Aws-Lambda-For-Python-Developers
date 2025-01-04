@@ -1,0 +1,71 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  customerApi
+
+Globals:
+  Function:
+    Runtime: python3.13
+    Architectures:
+      - x86_64
+    Timeout: 30
+    Environment:
+      Variables:
+        CUSTOMER_TABLE: !Ref CustomerTable
+
+Resources:
+  CustomerTable:
+    Type: AWS::Serverless::SimpleTable
+    Properties:
+      PrimaryKey:
+        Name: id
+        Type: Number
+  CreateCustomerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: customer_api/
+      Handler: create_customer.lambda_handler
+      Events:
+        NewCustomer:
+          Type: Api
+          Properties:
+            Path: /customer
+            Method: POST
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref CustomerTable
+  GetCustomerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: customer_api/
+      Handler: get_customer.lambda_handler
+      Events:
+        NewCustomer:
+          Type: Api
+          Properties:
+            Path: /customer/{id}
+            Method: GET
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref CustomerTable
+
+
+Outputs:
+  # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
+  # Find out more about other implicit resources you can reference within SAM
+  # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
+  CusromerApi:
+    Description: "API Gateway endpoint URL for Prod stage for CustomerAPI"
+    Value: !Sub "https://${ServerlessRestApi}.${AWS::Region}.amazonaws.com/Prod/customer"
+  CreateCustomerFunction:
+    Description: "CreateCustomerFunction Lambda ARN"
+    Value: !GetAtt CreateCustomerFunction.Arn
+  CreateCustomerFunctionIamRole:
+    Description: "Implicit IAM Role created for CreateCustomer function"
+    Value: !GetAtt CreateCustomerRole.Arn
+  GetCustomerFunction:
+    Description: "GetCustomerFunction Lambda ARN"
+    Value: !GetAtt GetCustomerFunction.Arn
+  GetCustomerFunctionIamRole:
+    Description: "Implicit IAM Role created for GetCustomerFunction"
+    Value: !GetAtt GetCustomerFunctionRole.Arn
