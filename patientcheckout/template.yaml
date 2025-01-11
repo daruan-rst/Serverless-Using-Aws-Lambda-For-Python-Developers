@@ -8,6 +8,8 @@ Globals:
     Timeout: 20
 
 Resources:
+  PatientCheckoutTopic:
+    Type: AWS::SNS::Topic
   PatientCheckoutBucket:
     Type: AWS::S3::Bucket
     Properties:
@@ -23,6 +25,11 @@ Resources:
       Policies:
         - S3ReadPolicy:
             BucketName: !Sub ${AWS::StackName}-${AWS::AccountId}-${AWS::Region}
+        - SNSMessagePublishPolicy:
+            TopicName: !GetAtt PatientCheckoutTopic.TopicName
+      Environment:
+        Variables:
+          PATIENT_CHECKOUT_TOPIC: !Ref PatientCheckoutTopic
       Events:
         S3Event:
           Type: S3 # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
