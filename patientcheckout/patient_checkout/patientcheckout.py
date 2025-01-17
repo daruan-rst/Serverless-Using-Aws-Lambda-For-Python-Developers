@@ -16,6 +16,6 @@ def lambda_handler(event, context):
         print(each_event)
         sns_client.publish(
             TopicArn=topic,
-            Message=json.dumps(each_event),
+            Message=json.dumps({'default': json.dumps(each_event)}),
             MessageStructure='json'
         )
