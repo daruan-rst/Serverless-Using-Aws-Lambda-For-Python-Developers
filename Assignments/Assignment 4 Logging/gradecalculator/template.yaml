@@ -1,0 +1,58 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  gradecalculator
+
+Globals:
+  Function:
+    Timeout: 20
+
+Resources:
+  GradeCalculatorTopic:
+    Type: AWS::SNS::Topic
+  GradeCalculatorBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub ${AWS::StackName}-${AWS::AccountId}-${AWS::Region}
+  GradeCalculatorFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: grade_calculator/
+      Handler: gradecalculator.lambda_handler
+      Runtime: python3.13
+      Architectures:
+        - x86_64
+      Policies:
+        - S3ReadPolicy:
+            BucketName: !Sub ${AWS::StackName}-${AWS::AccountId}-${AWS::Region}
+        - Statement:
+            - Effect: Allow
+              Action: sns:Publish
+              Resource: !GetAtt GradeCalculatorTopic.Arn
+      Environment:
+        Variables:
+          GRADE_CALCULATOR_TOPIC: !Ref GradeCalculatorTopic
+      Events:
+        S3Event:
+          Type: S3 # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Bucket: !Ref GradeCalculatorBucket
+            Events: s3:ObjectCreated:*
+  GradeDisplayFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: grade_calculator/
+      Handler: gradedisplay.lambda_handler
+      Runtime: python3.13
+      Architectures:
+        - x86_64
+      Events:
+        SNSEvent:
+          Type: SNS # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Topic: !Ref GradeCalculatorTopic
+
+
+
+
+
