@@ -30,7 +30,7 @@ Resources:
       Policies:
         - S3ReadPolicy:
             BucketName: !Sub ${AWS::StackName}-${AWS::AccountId}-${AWS::Region}
-        - SNSMessagePublishPolicy:
+        - SNSPublishMessagePolicy:
             TopicName: !GetAtt PatientCheckoutTopic.TopicName
       Environment:
         Variables:
